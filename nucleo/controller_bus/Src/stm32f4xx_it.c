@@ -225,7 +225,7 @@ void USART6_IRQHandler(void)
 		{
 			recieveBuffer[i] = 0;
 			i = 0;
-			//messageHandler(recieveBuffer);
+			messageHandler(recieveBuffer);
 		}
 		else
 		{
